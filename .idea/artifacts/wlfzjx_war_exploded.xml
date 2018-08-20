@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wlfzjx:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/wlfzjx_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="wlfzjx/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wlfzjx" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../.." />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="c3p0-0.9.2-pre5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
